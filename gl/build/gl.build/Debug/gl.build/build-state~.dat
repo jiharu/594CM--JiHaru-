@@ -1,0 +1,407 @@
+Tgl
+v7
+r0
+t317347307.174885
+cCheck dependencies
+cCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o /Users/jiharu/svn/594CM--JiHaru-/gl/03_crossproduct.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o /Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug/gl_setup01 normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004BF4700F000000000001A494
+t1274310671
+s107668
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004B489326000000000000578C
+t1263047462
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004BF47010000000000000DB14
+t1274310672
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl/03_crossproduct.cpp
+c000000004D3A1C660000000000001B67
+t1295653990
+s7015
+i<stdio.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp
+c000000004D3A1CDA00000000000020A6
+t1295654106
+s8358
+i<stdio.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug/gl_setup01
+t2
+s0
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o
+t1295654507
+s14504
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o
+t1295654507
+s15648
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/gl_setup01.LinkFileList
+c000000004D3A1E6B00000000000000D1
+t1295654507
+s209
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/01_rectangle.c
+c000000004D3A16A800000000000006F5
+t1295652520
+s1781
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/02_light.c
+c000000004D3A169C0000000000000C1A
+t1295652508
+s3098
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/03_crossproduct.cpp
+c000000004D3A1C660000000000001B67
+t1295653990
+s7015
+i<stdio.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/04_landscape.cpp
+c000000004D3A1C1800000000000020A6
+t1295653912
+s8358
+i<stdio.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp
+c000000004D3A1CDA00000000000020A6
+t1295654106
+s8358
+i<stdio.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c
+c000000004D37299A0000000000001B19
+t1295460762
+s6937
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/gl_setup01
+t2
+s0
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/01_rectangle.o
+t1295653422
+s6092
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/02_light.o
+t1295653392
+s7712
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o
+t1295653992
+s14520
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/04_landscape.o
+t1295653854
+s15664
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o
+t1295654123
+s15664
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/Emissivelight.o
+t1295648195
+s11588
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/crossproduct.o
+t1295652239
+s15580
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/crossproduct_landscape.o
+t1295647894
+s15292
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/gl_setup01.LinkFileList
+c000000004D3A1CEB00000000000000E1
+t1295654123
+s225
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/light.o
+t1295648027
+s7696
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/rectangle.o
+t1295648053
+s6116
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct.cpp
+c000000004D3A158F00000000000020BF
+t1295652239
+s8383
+i<stdio.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp
+c000000004D3A01630000000000002250
+t1295647075
+s8784
+i<stdio.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/light.c
+c000000004D3A051B0000000000000C23
+t1295648027
+s3107
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/rectangle.c
+c000000004D2E03F7000000000000084C
+t1294861303
+s2124
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317347307#317347307#0(0"0(0#1#0"8610040800#0"0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/01_rectangle.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/01_rectangle.c normal x86_64 c com.apple.compilers.gcc.4_2
+s317346222.602268
+e317346222.697322
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/01_rectangle.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/01_rectangle.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/01_rectangle.c317346222#317346222#0(0"0(0#0#58"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/01_rectangle.c8616507584#1283"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/01_rectangle.c -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/01_rectangle.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/02_light.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/02_light.c normal x86_64 c com.apple.compilers.gcc.4_2
+s317346191.964778
+e317346192.032088
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/02_light.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/02_light.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/02_light.c317346191#317346192#0(0"0(0#0#54"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/02_light.c8616447328#1275"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/02_light.c -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/02_light.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o /Users/jiharu/svn/594CM--JiHaru-/gl/03_crossproduct.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s317347307.018061
+e317347307.144549
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl/03_crossproduct.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jiharu/svn/594CM--JiHaru-/gl/03_crossproduct.cpp317347307#317347307#0(0"0(0#0#55"/Users/jiharu/svn/594CM--JiHaru-/gl/03_crossproduct.cpp8599526816#1222"    cd /Users/jiharu/svn/594CM--JiHaru-/gl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl/03_crossproduct.cpp -o /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/03_crossproduct.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s317346792.569823
+e317346792.682516
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/03_crossproduct.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/03_crossproduct.cpp317346792#317346792#0(0"0(0#0#63"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/03_crossproduct.cpp8617890144#1310"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/03_crossproduct.cpp -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/04_landscape.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/04_landscape.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s317346654.231927
+e317346654.324716
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/04_landscape.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/04_landscape.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/04_landscape.cpp317346654#317346654#0(193"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/04_landscape.cpp: In function 'void myInit()':/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/04_landscape.cpp:80: warning: unused variable 'spot_pos2'1(22@27"Unused variable 'spot_pos2'317346654#91#102#0(6@60"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/04_landscape.cpp317346654#80#0#80#0#19"unused variable '*'0(0#0#60"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/04_landscape.cpp8615720096#1304"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/04_landscape.cpp -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/04_landscape.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o /Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s317347307.019177
+e317347307.152555
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp: In function 'void myInit()':
+o/Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp:80: warning: unused variable 'spot_pos2'
+lSLF07#2@60"Compile /Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp317347307#317347307#0(177"/Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp: In function 'void myInit()':/Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp:80: warning: unused variable 'spot_pos2'1(22@27"Unused variable 'spot_pos2'317347307#83#94#0(6@52"/Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp317346906#80#0#80#0#19"unused variable '*'0(0#0#52"/Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp8617313408#1216"    cd /Users/jiharu/svn/594CM--JiHaru-/gl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl/05_spotlight.cpp -o /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s317346923.513954
+e317346923.629173
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp: In function 'void myInit()':
+o/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp:80: warning: unused variable 'spot_pos2'
+lSLF07#2@68"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp317346923#317346923#0(193"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp: In function 'void myInit()':/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp:80: warning: unused variable 'spot_pos2'1(22@27"Unused variable 'spot_pos2'317346923#91#102#0(6@60"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp317346906#80#0#80#0#19"unused variable '*'0(0#0#60"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp8617810112#1304"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/05_spotlight.cpp -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/Emissivelight.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c normal x86_64 c com.apple.compilers.gcc.4_2
+s317340995.217617
+e317340995.308881
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/Emissivelight.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c: In function 'myInit':
+o/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c:63: warning: unused variable 'spot_pos2'
+lSLF07#2@67"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c317340995#317340995#0(184"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c: In function 'myInit':/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c:63: warning: unused variable 'spot_pos2'1(22@27"Unused variable 'spot_pos2'317340995#83#101#0(6@59"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c317153562#63#0#63#0#19"unused variable '*'0(0#0#59"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c8605723104#1285"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/Emissivelight.c -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/Emissivelight.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/crossproduct.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s317345043.945484
+e317345043.946706
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/crossproduct.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct.cpp317345043#317345043#0(193"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct.cpp: In function 'void myInit()':/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct.cpp:79: warning: unused variable 'spot_pos2'1(22@27"Unused variable 'spot_pos2'317345043#91#102#0(6@60"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct.cpp317345039#79#0#79#0#19"unused variable '*'0(0#0#60"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct.cpp8616401152#1304"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct.cpp -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/crossproduct.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/crossproduct_landscape.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s317340694.126370
+e317340694.284599
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/crossproduct_landscape.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp: In function 'void myInit()':
+o/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp:67: warning: unused variable 'spot_pos2'
+o/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp: In function 'void printNormal(float, float, float, float, float, float)':
+o/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp:101: warning: too few arguments for format
+lSLF07#2@78"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp317340694#317340694#0(473"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp: In function 'void myInit()':/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp:67: warning: unused variable 'spot_pos2'/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp: In function 'void printNormal(float, float, float, float, float, float)':/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp:101: warning: too few arguments for format2(22@27"Unused variable 'spot_pos2'317340694#101#112#0(6@70"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp317339875#67#0#67#0#19"unused variable '*'0(22@28"Too few arguments for format317340694#359#114#0(6@70"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp317339875#101#0#101#0#0"0(0#0#70"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp8459008537412203520#1324"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/crossproduct_landscape.cpp -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/crossproduct_landscape.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/light.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/light.c normal x86_64 c com.apple.compilers.gcc.4_2
+s317340830.338928
+e317340830.340037
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/light.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/light.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/light.c317340830#317340830#0(0"0(0#0#51"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/light.c8603050784#1269"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/light.c -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/light.o0#
+
+CCompileC build/gl.build/Debug/gl.build/Objects-normal/x86_64/rectangle.o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/rectangle.c normal x86_64 c com.apple.compilers.gcc.4_2
+s317340853.395814
+e317340853.468660
+r1
+xCompileC
+xbuild/gl.build/Debug/gl.build/Objects-normal/x86_64/rectangle.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/rectangle.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/rectangle.c317340853#317340853#0(0"0(0#0#55"/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/rectangle.c8599272352#1277"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/rectangle.c -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/rectangle.o0#
+
+CLd /Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug/gl_setup01 normal x86_64
+s317347307.152649
+e317347307.174838
+r0
+xLd
+x/Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug/gl_setup01
+xnormal
+xx86_64
+old: duplicate symbol idle()    in /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o and /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o
+ocollect2: ld returned 1 exit status
+lSLF07#2@63"Link /Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug/gl_setup01317347307#317347307#0(342"ld: duplicate symbol idle()    in /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o and /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.ocollect2: ld returned 1 exit statusCommand /Developer/usr/bin/g++-4.2 failed with exit code 12(13@242"Duplicate symbol idle()    in /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o and /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o317347307#0#247#0(6@0"317347307#0#0#0#0#0"0(4@58"Command /Developer/usr/bin/g++-4.2 failed with exit code 1317347307#18446744073709551615#0#0(1@0"0(0#0#0"8590304032#513"    cd /Users/jiharu/svn/594CM--JiHaru-/gl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug -F/Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug -filelist /Users/jiharu/svn/594CM--JiHaru-/gl/build/gl.build/Debug/gl.build/Objects-normal/x86_64/gl_setup01.LinkFileList -mmacosx-version-min=10.6 -framework GLUT -framework OpenGL -o /Users/jiharu/svn/594CM--JiHaru-/gl/build/Debug/gl_setup011#
+
+CLd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/gl_setup01 normal x86_64
+s317346923.629278
+e317346923.652019
+r0
+xLd
+x/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/gl_setup01
+xnormal
+xx86_64
+old: duplicate symbol idle()    in /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o and /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o
+ocollect2: ld returned 1 exit status
+lSLF07#2@71"Link /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/gl_setup01317346923#317346923#0(358"ld: duplicate symbol idle()    in /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o and /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.ocollect2: ld returned 1 exit statusCommand /Developer/usr/bin/g++-4.2 failed with exit code 12(13@258"Duplicate symbol idle()    in /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/05_spotlight.o and /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/03_crossproduct.o317346923#0#263#0(6@0"317346923#0#0#0#0#0"0(4@58"Command /Developer/usr/bin/g++-4.2 failed with exit code 1317346923#18446744073709551615#0#0(1@0"0(0#0#0"8617738656#553"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_setup01    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -F/Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug -filelist /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/gl.build/Debug/gl.build/Objects-normal/x86_64/gl_setup01.LinkFileList -mmacosx-version-min=10.6 -framework GLUT -framework OpenGL -o /Users/jiharu/svn/594CM--JiHaru-/gl_setup01/build/Debug/gl_setup011#
+
