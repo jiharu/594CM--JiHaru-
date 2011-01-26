@@ -202,7 +202,7 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>2D0FED8812EFEAF000113084</string>
+				<string>2D1BBD2F12F09E2A00EB1A6E</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>1_1_importObj.cpp</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
@@ -210,16 +210,16 @@
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>2D0FED8912EFEAF000113084</string>
+						<string>2D1BBD3012F09E2A00EB1A6E</string>
 						<key>PBXProjectModuleLabel</key>
 						<string>1_1_importObj.cpp</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>2D0FED8A12EFEAF000113084</string>
+						<string>2D1BBD3212F09E2A00EB1A6E</string>
 						<key>history</key>
 						<array>
-							<string>2D0FED1512EFDE7500113084</string>
+							<string>2D1BBD2B12F09E2400EB1A6E</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,47 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>767 103 793 775 0 0 1440 878 </string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>2D0FED8B12EFEAF000113084</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>glut.h</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>2D0FED8C12EFEAF000113084</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>glut.h</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>2D0FED8F12EFEAF000113084</string>
-						<key>history</key>
-						<array>
-							<string>2D0FED8D12EFEAF000113084</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {793, 734}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>19 98 793 775 0 0 1440 878 </string>
+				<string>647 103 793 775 0 0 1440 878 </string>
 			</dict>
 		</dict>
 	</array>
@@ -429,6 +389,8 @@
 							<key>Tabs</key>
 							<array>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -440,6 +402,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {667, 528}}</string>
+										<key>RubberWindowFrame</key>
+										<string>493 55 895 601 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -494,8 +458,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {667, 528}}</string>
-										<key>RubberWindowFrame</key>
-										<string>493 55 895 601 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -523,11 +485,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2D0FED8012EFEAF000113084</string>
+				<string>2D1BBD2C12F09E2A00EB1A6E</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>2D0FED8112EFEAF000113084</string>
+				<string>2D1BBD2D12F09E2A00EB1A6E</string>
 				<string>2DB4A0D412DE2E29007074F5</string>
-				<string>2D0FED8212EFEAF000113084</string>
+				<string>2D1BBD2E12F09E2A00EB1A6E</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -717,12 +679,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D5B069F1CE1000CFCEE</string>
-		<string>2D0FED9212EFEAF000113084</string>
-		<string>2D0FED9312EFEAF000113084</string>
 		<string>2D0FED8B12EFEAF000113084</string>
-		<string>/Users/jiharu/svn/594CM/gl/gl_obj.xcodeproj</string>
-		<string>2D0FED8812EFEAF000113084</string>
+		<string>/Users/jiharu/svn/594CM--JiHaru-/gl_obj/gl_obj.xcodeproj</string>
+		<string>2D1BBD2F12F09E2A00EB1A6E</string>
 	</array>
 	<key>WindowString</key>
 	<string>493 55 895 601 0 0 1440 878 </string>
