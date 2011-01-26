@@ -218,7 +218,7 @@ void myInit(void)
 	glEnable(GL_DEPTH_TEST);
 	
 	glClearColor(0.0,0.0,0.0,0.0);
-	readFile("/Users/jiharu/svn/594CM/gl/obj/triangular/Shatter1.obj");
+	readFile("Shatter1.obj");
 	
 	//DEFINE NIGTHS in some INIT function..
 	glEnable(GL_LIGHTING); //enable lighting
