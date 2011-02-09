@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D020CB2130256F400507097 /* 1_5_1_morph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D0209BF1302296300507097 /* 1_5_1_morph.cpp */; };
 		2DB4A0DE12DE2E73007074F5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4A0DD12DE2E73007074F5 /* GLUT.framework */; };
 		2DB4A0E412DE2EB1007074F5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4A0E312DE2EB1007074F5 /* OpenGL.framework */; };
-		2DE3BBA312EA5469003C9681 /* 1_1_importObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DD11D4D12E773E20086BC6A /* 1_1_importObj.cpp */; };
+		2DFDD46812F6504900EA753D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFDD46712F6504900EA753D /* Carbon.framework */; };
+		2DFDD5B212F6528600EA753D /* libSOIL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFDD5B112F6528600EA753D /* libSOIL.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +27,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D0209BF1302296300507097 /* 1_5_1_morph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_5_1_morph.cpp; sourceTree = "<group>"; };
+		2D3A277E12F7FFB3009E1CEF /* 1_4_2_blendMask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_4_2_blendMask.cpp; sourceTree = "<group>"; };
+		2D5ACB7812F0A82100BE7AFF /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2D5ACB9A12F0C07100BE7AFF /* glutDemo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glutDemo.c; sourceTree = "<group>"; };
 		2DB4A0DD12DE2E73007074F5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		2DB4A0E312DE2EB1007074F5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		2DD11D4D12E773E20086BC6A /* 1_1_importObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_1_importObj.cpp; sourceTree = "<group>"; };
+		2DCD363F12F74BF30001070D /* 1_1_importObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_1_importObj.cpp; sourceTree = "<group>"; };
+		2DCD364012F74BF30001070D /* 1_2_importTex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_2_importTex.cpp; sourceTree = "<group>"; };
+		2DCD364112F74BF30001070D /* 1_3_blendTex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_3_blendTex.cpp; sourceTree = "<group>"; };
+		2DCD364212F74BF30001070D /* 1_4_1_blendMask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_4_1_blendMask.cpp; sourceTree = "<group>"; };
+		2DD11D4D12E773E20086BC6A /* 1_5_2_morph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_5_2_morph.cpp; sourceTree = "<group>"; };
+		2DFDD46712F6504900EA753D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		2DFDD5B112F6528600EA753D /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSOIL.a; sourceTree = "<group>"; };
+		2DFDD5E112F657CF00EA753D /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		2DFDD5E212F657DA00EA753D /* SOIL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOIL.h; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* gl_setup01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gl_setup01; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E8B029090EE04C91782 /* gl_setup01.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = gl_setup01.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +53,8 @@
 			files = (
 				2DB4A0DE12DE2E73007074F5 /* GLUT.framework in Frameworks */,
 				2DB4A0E412DE2EB1007074F5 /* OpenGL.framework in Frameworks */,
+				2DFDD46812F6504900EA753D /* Carbon.framework in Frameworks */,
+				2DFDD5B212F6528600EA753D /* libSOIL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,11 +64,15 @@
 		08FB7794FE84155DC02AAC07 /* gl_setup01 */ = {
 			isa = PBXGroup;
 			children = (
+				2DFDD5E212F657DA00EA753D /* SOIL.h */,
+				2DFDD5E112F657CF00EA753D /* main.h */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859E8C029090F304C91782 /* Documentation */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
+				2DFDD5B112F6528600EA753D /* libSOIL.a */,
 				2DB4A0DD12DE2E73007074F5 /* GLUT.framework */,
 				2DB4A0E312DE2EB1007074F5 /* OpenGL.framework */,
+				2DFDD46712F6504900EA753D /* Carbon.framework */,
 			);
 			name = gl_setup01;
 			sourceTree = "<group>";
@@ -60,7 +80,15 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				2DD11D4D12E773E20086BC6A /* 1_1_importObj.cpp */,
+				2DCD363F12F74BF30001070D /* 1_1_importObj.cpp */,
+				2DD11D4D12E773E20086BC6A /* 1_5_2_morph.cpp */,
+				2D0209BF1302296300507097 /* 1_5_1_morph.cpp */,
+				2DCD364012F74BF30001070D /* 1_2_importTex.cpp */,
+				2DCD364112F74BF30001070D /* 1_3_blendTex.cpp */,
+				2DCD364212F74BF30001070D /* 1_4_1_blendMask.cpp */,
+				2D3A277E12F7FFB3009E1CEF /* 1_4_2_blendMask.cpp */,
+				2D5ACB7812F0A82100BE7AFF /* main.c */,
+				2D5ACB9A12F0C07100BE7AFF /* glutDemo.c */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -124,7 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE3BBA312EA5469003C9681 /* 1_1_importObj.cpp in Sources */,
+				2D020CB2130256F400507097 /* 1_5_1_morph.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +169,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = gl_setup01;
 			};
 			name = Debug;
@@ -152,6 +184,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = gl_setup01;
 			};
 			name = Release;
@@ -167,6 +203,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = /Users/jiharu/svn/594CM/gl/;
 			};
 			name = Debug;
 		};

@@ -5,7 +5,7 @@
  *  Created by Haru (HyunKyung) Ji on 1/25/11.
  *  Copyright 2011 UCSB. All rights reserved.
  *
- * Quesiton: how to calculate the whole lighting effect
+ *  Quesiton: how to calculate the whole lighting effect, relative?
  */ 
 
 #include <stdio.h>
@@ -14,22 +14,6 @@
 #include <math.h>
 #include "main.h"
 #include <string.h>
-
-struct vec3 {
-	float x, y, z;	
-	
-	float length (){
-		return sqrt((x*x) + (y*y) + (z*z));
-	}
-	void normalize (){
-		float l = length();
-		x = x / l ;
-		y = y / l ;
-		z = z / l ;
-	}
-};
-
-
 
 float rotX1 = 0;
 //position the light
@@ -41,10 +25,10 @@ float SCALE_VERTICES = .3; //1.0
 float rotY = 0.0;
 float transZ = -5.0;
 int numVertices, numNormals, numTexCoords, numFaces;
-struct p3f *vertices, *normals, *texcoords;
+struct vec3 *vertices, *normals, *texcoords;
 struct face *faces;
 
-void print_p3f(struct p3f p) {
+void print_vec3(struct vec3 p) {
 	printf("%f/%f/%f", p.x, p.y, p.z);
 }
 
@@ -84,44 +68,44 @@ vec3 calulateVector(vec3 p0, vec3 p1, vec3 p2) {
 }
 
 void print_face(struct face f) {
-	printf("\npt 1: v:"); print_p3f(vertices[f.v1]);
-	printf(" t:"); print_p3f(texcoords[f.t1]);
-	printf(" n:"); print_p3f(normals[f.n1]);
-	printf("\npt 2: v:"); print_p3f(vertices[f.v2]);
-	printf(" t:"); print_p3f(texcoords[f.t2]);
-	printf(" n:"); print_p3f(normals[f.n2]);
-	printf("\npt 3: v:"); print_p3f(vertices[f.v3]);
-	printf(" t:"); print_p3f(texcoords[f.t3]);
-	printf(" n:"); print_p3f(normals[f.n3]);
+	printf("\npt 1: v:"); print_vec3(vertices[f.v1]);
+	printf(" t:"); print_vec3(texcoords[f.t1]);
+	printf(" n:"); print_vec3(normals[f.n1]);
+	printf("\npt 2: v:"); print_vec3(vertices[f.v2]);
+	printf(" t:"); print_vec3(texcoords[f.t2]);
+	printf(" n:"); print_vec3(normals[f.n2]);
+	printf("\npt 3: v:"); print_vec3(vertices[f.v3]);
+	printf(" t:"); print_vec3(texcoords[f.t3]);
+	printf(" n:"); print_vec3(normals[f.n3]);
 	printf("\n");
 }
 
 void scanVertex(char line[], float scale) {
 	numVertices++;
-	vertices = (struct p3f *)realloc (vertices, sizeof(struct p3f) * numVertices);
+	vertices = (struct vec3 *)realloc (vertices, sizeof(struct vec3) * numVertices);
 	float a, b, c;
 	sscanf (line, "v %f %f %f", &a, &b, &c);
-	struct p3f v;
+	struct vec3 v;
 	v.x = a * scale; v.y = b * scale; v.z = c * scale;
 	vertices[numVertices - 1] = v; 
 }
 
 void scanTexCoord(char line[]) {
 	numTexCoords++;
-	texcoords = (struct p3f *)realloc (texcoords, sizeof(struct p3f) * numTexCoords);
+	texcoords = (struct vec3 *)realloc (texcoords, sizeof(struct vec3) * numTexCoords);
 	float a, b;
 	sscanf (line, "vt %f %f", &a, &b);
-	struct p3f tc;
+	struct vec3 tc;
 	tc.x = a; tc.y = b; tc.z = 0.0;
 	texcoords[numTexCoords - 1] = tc; 
 }
 
 void scanNormal(char line[]) {
 	numNormals++;
-	normals = (struct p3f *)realloc (normals, sizeof(struct p3f) * numNormals);
+	normals = (struct vec3 *)realloc (normals, sizeof(struct vec3) * numNormals);
 	float a, b, c;
 	sscanf (line, "vn %f %f %f", &a, &b, &c);
-	struct p3f n;
+	struct vec3 n;
 	n.x = a; n.y = b; n.z = c;
 	normals[numNormals - 1] = n; 
 }
@@ -144,9 +128,9 @@ void scanFace(char line[], int numSides) {
 }
 
 void readFile(char* filename) {
-	vertices = (struct p3f *) malloc (sizeof(struct p3f));
-	normals = (struct p3f *) malloc (sizeof(struct p3f));
-	texcoords = (struct p3f *) malloc (sizeof(struct p3f));
+	vertices = (struct vec3 *) malloc (sizeof(struct vec3));
+	normals = (struct vec3 *) malloc (sizeof(struct vec3));
+	texcoords = (struct vec3 *) malloc (sizeof(struct vec3));
 	faces = (struct face *) malloc (sizeof(struct face));
 	
 	FILE *file = fopen ( filename, "r" );
@@ -181,27 +165,27 @@ void displayFaces() {
 		glBegin(GL_TRIANGLES);
 		
 		//v1
-		struct p3f n1 = normals[f.n1]; 
-		struct p3f t1 = texcoords[f.t1]; 
-		struct p3f p1 = vertices[f.v1]; 
+		struct vec3 n1 = normals[f.n1]; 
+		struct vec3 t1 = texcoords[f.t1]; 
+		struct vec3 p1 = vertices[f.v1]; 
 		
 		glNormal3f(n1.x, n1.y, n1.z);
 		glTexCoord2f(t1.x, t1.y);  
 		glVertex3f(p1.x, p1.y, p1.z);  
 		
 		//v2
-		struct p3f n2 = normals[f.n2]; 
-		struct p3f t2 = texcoords[f.t2]; 
-		struct p3f p2 = vertices[f.v2]; 
+		struct vec3 n2 = normals[f.n2]; 
+		struct vec3 t2 = texcoords[f.t2]; 
+		struct vec3 p2 = vertices[f.v2]; 
 		
 		glNormal3f(n2.x, n2.y, n2.z);
 		glTexCoord2f(t2.x, t2.y);
 		glVertex3f(p2.x, p2.y, p2.z); 
 		
 		//v3
-		struct p3f n3 = normals[f.n3];
-		struct p3f t3 = texcoords[f.t3]; 
-		struct p3f p3 = vertices[f.v3]; 
+		struct vec3 n3 = normals[f.n3];
+		struct vec3 t3 = texcoords[f.t3]; 
+		struct vec3 p3 = vertices[f.v3]; 
 		
 		glNormal3f(n3.x, n3.y, n3.z);
 		glTexCoord2f(t3.x, t3.y);
@@ -218,7 +202,7 @@ void myInit(void)
 	glEnable(GL_DEPTH_TEST);
 	
 	glClearColor(0.0,0.0,0.0,0.0);
-	readFile("Shatter1.obj");
+	readFile("/Users/jiharu/svn/594CM/gl_obj/obj/triangular/Shatter1.obj");
 	
 	//DEFINE NIGTHS in some INIT function..
 	glEnable(GL_LIGHTING); //enable lighting
@@ -282,17 +266,20 @@ void myInit(void)
 	glLightf (GL_LIGHT2, GL_SPOT_CUTOFF, 30.0);	// degrees
 	glLightf (GL_LIGHT2, GL_SPOT_EXPONENT, 2.0);
 
-	float spot_direction3[] = { 1.0, -1.0, 0.0 }; 
+	float spot_direction3[] = { .5, -1.0, 0.0 }; 
+	float ambient3[] = {0.1, 0.2, 0.4, 1.0};
+	float diffuse3[] = {1.0, 0.7, 0.3, 1.0};
+	float specular3[] = {1.0, 0.3, 0.0, 1.0};
+	
 	glEnable(GL_LIGHT3); //turn on one of the lights
-	//	glDisable(GL_LIGHT2);	
-	glLightfv(GL_LIGHT3, GL_AMBIENT, ambient2);
-	glLightfv(GL_LIGHT3, GL_DIFFUSE, diffuse2);	
-	glLightfv(GL_LIGHT3, GL_SPECULAR, specular2);
-	glLightfv(GL_LIGHT3, GL_EMISSION, emission2);
+	//	glDisable(GL_LIGHT3);	
+	glLightfv(GL_LIGHT3, GL_AMBIENT, ambient3);
+	glLightfv(GL_LIGHT3, GL_DIFFUSE, diffuse3);	
+	glLightfv(GL_LIGHT3, GL_SPECULAR, specular3);
 	
 	glLightfv(GL_LIGHT3, GL_SPOT_DIRECTION, spot_direction3);
-	glLightf(GL_LIGHT3, GL_CONSTANT_ATTENUATION, 1.5); 
-	glLightf(GL_LIGHT3, GL_LINEAR_ATTENUATION, 0.5); 
+	glLightf(GL_LIGHT3, GL_CONSTANT_ATTENUATION, 0.5); 
+	glLightf(GL_LIGHT3, GL_LINEAR_ATTENUATION, 0.8); 
 	glLightf(GL_LIGHT3, GL_QUADRATIC_ATTENUATION, 0.2);
 	glLightf (GL_LIGHT3, GL_SPOT_CUTOFF, 45.0);	// degrees
 	glLightf (GL_LIGHT3, GL_SPOT_EXPONENT, 2.0);
@@ -341,7 +328,7 @@ void display(void)
 	glPushMatrix(); 
 	glTranslatef(-sin(0.5), 1.2, 2.0);
 	glLightfv(GL_LIGHT3, GL_POSITION, pos); //spot light3
-	glMaterialfv(GL_FRONT, GL_AMBIENT, mat_red);
+	glMaterialfv(GL_FRONT, GL_AMBIENT, mat_gray1);
 	glMaterialfv(GL_FRONT, GL_EMISSION, mat_red); 
 	glutSolidCube(0.11);
 	glPopMatrix(); 
@@ -349,7 +336,7 @@ void display(void)
 	glPushMatrix(); 
 	glTranslatef(0.0, -0.5, 2.0);
 	glRotatef(rotX1, 0.0, 1.0, 0.0); 
-	glMaterialfv(GL_FRONT, GL_AMBIENT, mat_gray1);
+	glMaterialfv(GL_FRONT, GL_AMBIENT, mat_gray2);
 	glMaterialfv(GL_FRONT, GL_SPECULAR, mat_white); 
 	glMaterialfv(GL_FRONT, GL_SHININESS, high_shininess); 
 	glMaterialfv(GL_FRONT, GL_DIFFUSE, mat_gray2);

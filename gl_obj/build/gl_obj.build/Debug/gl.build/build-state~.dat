@@ -1,0 +1,104 @@
+Tgl
+v7
+r0
+t318132511.940654
+cCheck dependencies
+cCompileC build/gl_obj.build/Debug/gl.build/Objects-normal/x86_64/1_1_importObj.o /Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug/gl_setup01 normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004BF4700F000000000001A494
+t1274310671
+s107668
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004B489326000000000000578C
+t1263047462
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004BF47010000000000000DB14
+t1274310672
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp
+c000000004D40668F0000000000003B77
+t1296066191
+s15223
+i<stdio.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i<math.h>
+i"main.h"
+i<string.h>
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug/gl_setup01
+t1296439711
+s28176
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/Objects-normal/x86_64/1_1_importObj.o
+t1296066191
+s32996
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/Objects-normal/x86_64/gl_setup01.LinkFileList
+c000000004D46199F0000000000000070
+t1296439711
+s112
+
+N/Users/jiharu/svn/594CM--JiHaru-/gl_obj/main.h
+c000000004D3FA095000000000000022F
+t1296015509
+s559
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318132511#318132511#0(0"0(0#1#0"8610277920#0"0#
+
+CCompileC build/gl_obj.build/Debug/gl.build/Objects-normal/x86_64/1_1_importObj.o /Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s318132511.837247
+e318132511.839480
+r1
+xCompileC
+xbuild/gl_obj.build/Debug/gl.build/Objects-normal/x86_64/1_1_importObj.o
+x/Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp318132511#318132511#0(214"/Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp: In function 'void myInit()':/Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp:221: warning: deprecated conversion from string constant to 'char*'1(22@53"Deprecated conversion from string constant to 'char*'318132511#88#126#0(6@57"/Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp317758991#221#0#221#0#49"deprecated conversion from string constant to '*'0(0#0#57"/Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp8610039360#1290"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_obj    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/gl_setup01-generated-files.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/gl_setup01-own-target-headers.hmap -I/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/gl_setup01-all-target-headers.hmap -iquote /Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/gl_setup01-project-headers.hmap -F/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug -I/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug/include -I/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/DerivedSources/x86_64 -I/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/DerivedSources -c /Users/jiharu/svn/594CM--JiHaru-/gl_obj/1_1_importObj.cpp -o /Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/Objects-normal/x86_64/1_1_importObj.o0#
+
+CLd /Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug/gl_setup01 normal x86_64
+s318132511.839550
+e318132511.940588
+r1
+xLd
+x/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug/gl_setup01
+xnormal
+xx86_64
+lSLF07#2@67"Link /Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug/gl_setup01318132511#318132511#0(0"0(0#0#0"8609846624#537"    cd /Users/jiharu/svn/594CM--JiHaru-/gl_obj    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug -F/Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug -filelist /Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/gl_obj.build/Debug/gl.build/Objects-normal/x86_64/gl_setup01.LinkFileList -mmacosx-version-min=10.6 -framework GLUT -framework OpenGL -o /Users/jiharu/svn/594CM--JiHaru-/gl_obj/build/Debug/gl_setup010#
+
